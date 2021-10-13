@@ -2,6 +2,10 @@
 properties([
   parameters([
      booleanParam(name: 'runTests', defaultValue: true),
+     string(name: 'ARTIFACTORY_LOCAL_RELEASE_REPO'),
+     string(name: 'ARTIFACTORY_LOCAL_SNAPSHOT_REPO'),
+     string(name: 'ARTIFACTORY_VIRTUAL_RELEASE_REPO'),
+     string(name: 'ARTIFACTORY_VIRTUAL_SNAPSHOT_REPO')
   ])
 ])
 
