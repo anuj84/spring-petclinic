@@ -1,3 +1,22 @@
+
+########################################################
+# Adding build to petclinic
+
+## Change Log
+* Update to pom.xml to use JCenter
+* Added Dockerfile to containerize the app
+* Added Jenkinsfile to build artifact and container
+
+## Run pipeline
+* Create a multiline pipeline in Jenkins
+* Update the Branch Sources section with the repository URL
+```
+https://github.com/anuj84/spring-petclinic.git
+```
+* Run the pipeline
+
+#########################################################
+
 # Spring PetClinic Sample Application [![Build Status](https://travis-ci.org/spring-projects/spring-petclinic.png?branch=main)](https://travis-ci.org/spring-projects/spring-petclinic/)
 
 ## Understanding the Spring Petclinic application with a few diagrams
