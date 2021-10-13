@@ -13,7 +13,16 @@
 ```
 https://github.com/anuj84/spring-petclinic.git
 ```
+* Select the branch petclinic-ci
+* Select if unit tests need to run
 * Run the pipeline
+
+## Run Docker Image
+
+* Successfull execution of the pipeline creates image 'petclinic' which can run the application using the following command
+    ```
+    docker run -p 8080:8080 petclinic
+    ```
 
 #########################################################
 
