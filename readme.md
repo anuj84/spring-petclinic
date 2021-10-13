@@ -10,12 +10,13 @@
 ## Run pipeline
 * Create a multiline pipeline in Jenkins
 * Install the artifactory plugin
+* Select the branch `artifactory`
 * Configure the necessary params SERVER_ID, MAVEN_TOOL, ARTIFACTORY_LOCAL_RELEASE_REPO, ARTIFACTORY_LOCAL_SNAPSHOT_REPO, ARTIFACTORY_VIRTUAL_RELEASE_REPO, ARTIFACTORY_VIRTUAL_SNAPSHOT_REPO
 * Update the Branch Sources section with the repository URL
 ```
 https://github.com/anuj84/spring-petclinic.git
 ```
-* Select the branch artifactory
+
 * Select if unit tests need to run
 * Run the pipeline
 
