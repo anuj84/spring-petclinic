@@ -34,7 +34,7 @@ node {
     sh './mvnw package'
   }
   
-  stage('Create Image - Dockerfile'){
+  stage('Create Docker Image'){
     sh 'docker build -t petclinic:$BUILD_NUMBER .'  
   }
 }
