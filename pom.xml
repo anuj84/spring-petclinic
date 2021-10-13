@@ -278,7 +278,7 @@
   </licenses>
 
   <repositories>
-    <repository>
+    <!--<repository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
       <url>https://repo.spring.io/snapshot</url>
@@ -293,11 +293,19 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+    </repository>-->
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>bintray</name>
+      <url>https://jcenter.bintray.com</url>
     </repository>
   </repositories>
 
   <pluginRepositories>
-    <pluginRepository>
+    <!--<pluginRepository>
       <id>spring-snapshots</id>
       <name>Spring Snapshots</name>
       <url>https://repo.spring.io/snapshot</url>
@@ -312,6 +320,14 @@
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+    </pluginRepository>-->
+    <pluginRepository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>bintray-plugins</name>
+      <url>https://jcenter.bintray.com</url>
     </pluginRepository>
   </pluginRepositories>
 
