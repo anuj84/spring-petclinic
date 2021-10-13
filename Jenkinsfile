@@ -12,7 +12,7 @@ node {
   
   stage('Clone') {
       //clone the project
-    git branch: 'master',
+    git branch: BRANCH_NAME,
         url:    'https://github.com/anuj84/spring-petclinic.git'
   }
   
