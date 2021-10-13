@@ -34,10 +34,6 @@ node {
     sh './mvnw package'
   }
   
-  stage('Create Image - mvnw'){
-    sh './mvnw spring-boot:build-image -Dspring-boot.build-image.imageName=pet-clinician-spring-boot-image'  
-  }
-  
   stage('Create Image - Dockerfile'){
     sh 'docker build -t petclinic:$BUILD_NUMBER .'  
   }
